@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2196f3"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/tony_stark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tony Stark"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textColor="#fafafa"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tony@starkindustries"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:textColor="#fafafa"
+        android:textStyle="bold"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+91 11155555"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#81c784"
+        android:textStyle="bold"
+        android:padding="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name or email here"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:textStyle="italic"
+        android:layout_margin="25dp"
+        android:background="#ffff"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your code here"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:textStyle="italic"
+        android:layout_margin="25dp"
+        android:background="#ffff"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="click here"
+        android:textColor="#ffff"
+        android:background="#42a5f5"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+
+</LinearLayout>
