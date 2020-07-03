@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgTonyStark"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/tony_stark"
+                android:layout_margin="15dp"
+                />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iron Man"
+                android:layout_toRightOf="@+id/imgTonyStark"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tony@avengers.com"
+                android:layout_toRightOf="@+id/imgTonyStark"
+                android:layout_below="@+id/txtName"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/txtNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 11155555"
+                android:layout_toRightOf="@id/imgTonyStark"
+                android:layout_below="@+id/txtEmail"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgSteveRogers"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/captain_america"
+                android:layout_margin="15dp"
+                />
+
+            <TextView
+                android:id="@+id/txtSR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Captain America"
+                android:layout_toRightOf="@+id/imgSteveRogers"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/txtEmailSR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="steve@avengers.com"
+                android:layout_toRightOf="@+id/imgSteveRogers"
+                android:layout_below="@+id/txtSR"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/NumberSR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 11155556"
+                android:layout_toRightOf="@id/imgSteveRogers"
+                android:layout_below="@+id/txtEmailSR"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgBruceBanner"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/hulk"
+                android:layout_margin="15dp"
+                />
+
+            <TextView
+                android:id="@+id/txtBB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hulk"
+                android:layout_toRightOf="@+id/imgBruceBanner"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/txtEmailBB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BruceBanner@avengers.com"
+                android:layout_toRightOf="@+id/imgBruceBanner"
+                android:layout_below="@+id/txtBB"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/NumberBB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 11155557"
+                android:layout_toRightOf="@id/imgBruceBanner"
+                android:layout_below="@+id/txtEmailBB"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgThor"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/thor"
+                android:layout_margin="15dp"
+                />
+
+            <TextView
+                android:id="@+id/txtTH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thor"
+                android:layout_toRightOf="@+id/imgThor"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/txtEmailTH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="thor@avengers.com"
+                android:layout_toRightOf="@+id/imgThor"
+                android:layout_below="@+id/txtTH"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/NumberTH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 11155558"
+                android:layout_toRightOf="@id/imgThor"
+                android:layout_below="@+id/txtEmailTH"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgBlackWidow"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/widow"
+                android:layout_margin="15dp"
+                />
+
+            <TextView
+                android:id="@+id/txtBW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Black Widow"
+                android:layout_toRightOf="@+id/imgBlackWidow"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/txtEmailBW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="natasha@avengers.com"
+                android:layout_toRightOf="@+id/imgBlackWidow"
+                android:layout_below="@+id/txtBW"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/NumberBW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 11155559"
+                android:layout_toRightOf="@id/imgBlackWidow"
+                android:layout_below="@+id/txtEmailBW"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgTchalla"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/black_panther"
+                android:layout_margin="15dp"
+                />
+
+            <TextView
+                android:id="@+id/txtBP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Black Panther"
+                android:layout_toRightOf="@+id/imgTchalla"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/txtEmailBP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tchalla@avengers.com"
+                android:layout_toRightOf="@+id/imgTchalla"
+                android:layout_below="@+id/txtBP"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/NumberBP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 11155560"
+                android:layout_toRightOf="@id/imgTchalla"
+                android:layout_below="@+id/txtEmailBP"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
